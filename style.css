@@ -7,21 +7,23 @@ h1 {
     font-size: 50px;
 }
 
-.orange-color {
+.span-color {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
+    margin-bottom: 120px;
 }
 
 .half-width {
-    width: 50%;
+    width: 40%;
+    margin-left: 5%;
     padding-left: 2%;
 }
 
 .half-width img {
-    width: 0.5%;
+    width: 100%;
 }
 
 .link-button {
@@ -34,40 +36,8 @@ section {
 }
 
 .top-banner {
-    background-image: url("developer-portfolio-master/images/top-banner.png");
+    background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
-}
-
-.half-width {
-    width: 40%;
-    float: left;
-    margin-left: 5%;
-    padding-left: 2%;
-}
-
-h1 {
-    font-size: 50px;
-}
-
-h1 span {
-    color: orange;
-}
-
-.half-width img {
-    width: 100%;
-}
-
-.anchor-button {
-    text-decoration: none;
-    background: linear-gradient(45deg, lightsalmon, tomato);
-    padding: 10px 40px;
-    border-radius: 5px;
-    color: white;
-    font-weight: 700;
-}
-
-p {
-    color: dimgray;
 }
 
 .dream-area {
@@ -90,9 +60,13 @@ h2 {
     color: orange;
 }
 
-.experience-area div {
+.experience-item {
     box-shadow: 5px 7px 40px gray;
-    height: 80%;
+    width: 40%;
+    margin-left: 2%;
+    margin-right: 5%;
+    padding-left: 3%;
+    border-radius: 10px;
 }
 
 #full-stack {
@@ -100,9 +74,8 @@ h2 {
 }
 
 #baby-web {
-    border-left: 7px solid;
-    border-image: linear-gradient(blue 100%, cyan 100%);
-    border-image-slice: 1;
+    border-left: 7px solid blue;
+
 }
 
 footer p {
